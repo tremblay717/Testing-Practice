@@ -9,3 +9,6 @@ test('zazz,2 = bcbb', () => {
 test('defend the east wall of the castle,1 = efgfoe uif fbtu xbmm pg uif dbtumf', () => {
     expect(caesar('defend the east wall of the castle', 1)).toBe('efgfoe uif fbtu xbmm pg uif dbtumf')
 });
+test('efgfoe uif fbtu xbmm pg uif dbtumf,1 = defend the east wall of the castle', () => {
+    expect(caesar('efgfoe uif fbtu xbmm pg uif dbtumf', -1)).toBe('defend the east wall of the castle')
+});
