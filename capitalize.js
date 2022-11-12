@@ -7,7 +7,7 @@ const capitalize = function(string){
         } else {
             newString += string[i].toLowerCase();
         }
-        i++
+        i++;
     }
     return newString;
 }
